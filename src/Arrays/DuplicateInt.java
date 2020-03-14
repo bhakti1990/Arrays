@@ -15,7 +15,8 @@ public class DuplicateInt {
             for (int j = i + 1; j < x.length; j++) {
                 if ((x[i] == x[j]) && (i != j)) {
                     System.out.println("duplicate values are " + (x[j]));
-                } }
+                }
+            }
         }
     }
 }
