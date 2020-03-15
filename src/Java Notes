@@ -1,0 +1,51 @@
+Class - 
+ * A class is a blue print of an object.
+ * It tells virtual machine to make an object of that particular type.
+ * Each object made from that class can have its own values for instance variable of that class.
+ * For example - you can make a button class to make diff buttons and each button has its won shape, size and color.
+
+Object - 
+ * An object for example is an entry in your address book.
+ * One analogy for objects is a packet of unused cards. Each card has the same blank fields (instance variable).
+    when you fill out the card you are creating an instance (object) and the entries you make on that card represents state.
+ * Things an object knows about itself are called Instance variables.They represent the state of an object.
+ * Things an object does are called Methods . They represent the behavior of an object.
+ 
+Simple Example 
+Class Dog {     -------------> This is a class
+    int size;   -------------> instance  (int is a variable with name size)
+    String breed; -------------> instance variables
+    String name; -------------> instance variables
+    
+    void bark() -------------> Method
+    {
+    system.out.print("Rugff"); }
+    
+    Public static void main(String[] args) -------------> main Method (2 uses of main - 1) to test your real class. 2)To start java application.
+    { 
+    Dog d = new Dog(); -------------> Object
+    d.bark(); -------------> calling bark() method using dot operator (here 'd' is the object reference variable)
+    d.size= 40; -------------> setting the size of the Dog.
+    }}
+    
+Heap 
+ * Each time a object is created in JAVA , it goes to an area of memory known as HEAP.
+ * All objects no matter how they are created live on the HEAP.
+ * Its not just only old memory heap, java heap is actually called garbage collectible heap.
+ * When you create an object , java allocates memory space on heap according to the space required.
+ * An object with 15 instance variables will require more space then an object with 2 instance variable.
+ * Also, Java manages the memory if the object is not required anymore.
+ * If the JVM see that an object can never be used again, that object becomes eligible for garbage collection.
+ * If you are running low on memory then garbage collector will run , throw out the unreachable objects and free up the space.
+ 
+To mark as Global variable ---> user public static 
+
+What is JAVA Program
+ * It is a pile of classes or atleast one class.
+ * One of the classes must have main method to startup the program.
+
+JAR Files 
+* JAVA Archive files
+* Multiple JAVA class - consist all application files
+
+    
